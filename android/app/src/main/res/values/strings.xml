@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SafePit</string>
+    <string name="title_activity_main">SafePit</string>
+    <string name="package_name">com.safepit.training</string>
+    <string name="custom_url_scheme">com.safepit.training</string>
+</resources>

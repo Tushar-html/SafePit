@@ -1,0 +1,382 @@
+
+> safepit@1.0.0 dev
+> vite --port 5199 --strictPort
+
+[2m7:02:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because vite config has changed
+
+  [32m[1mVITE[22m v6.4.3[39m  [2mready in [0m[1m409[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5199[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://10.122.17.198:[1m5199[22m/[39m
+[2m7:06:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARFireIdentificationModule.tsx, /src/components/ARExplosionIdentificationModule.tsx, /src/components/ARExitRouteIdentificationModule.tsx[22m
+[2m7:09:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARFireIdentificationModule.tsx, /src/components/ARExplosionIdentificationModule.tsx, /src/components/ARExitRouteIdentificationModule.tsx[22m
+[2m7:10:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARFireIdentificationModule.tsx, /src/components/ARExplosionIdentificationModule.tsx, /src/components/ARExitRouteIdentificationModule.tsx[22m
+[2m7:10:26 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:191:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:191:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  189|          gl_PointSize = min(gl_PointSize, 256.0);
+  190|      fragmentShader: /* glsl */ `
+  191|        uniform sampler2D uMap;
+     |        ^
+  192|        uniform vec3 uColor;
+  193|        uniform float uOpacity;
+  [39m
+[2m7:10:26 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:191:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:191:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  189|          gl_PointSize = min(gl_PointSize, 256.0);
+  190|      fragmentShader: /* glsl */ `
+  191|        uniform sampler2D uMap;
+     |        ^
+  192|        uniform vec3 uColor;
+  193|        uniform float uOpacity;
+  [39m
+[2m7:10:26 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:191:6: ERROR: Expected "}" but found "uniform"[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:191:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  189|          gl_PointSize = min(gl_PointSize, 256.0);
+  190|      fragmentShader: /* glsl */ `
+  191|        uniform sampler2D uMap;
+     |        ^
+  192|        uniform vec3 uColor;
+  193|        uniform float uOpacity;
+  [39m
+      at failureErrorWithLog (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:1467:15)
+      at D:\Mine Safety apk\node_modules\esbuild\lib\main.js:736:50
+      at responseCallbacks.<computed> (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:603:9)
+      at handleIncomingPacket (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:658:12)
+      at Socket.readFromStdout (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:581:7)
+      at Socket.emit (node:events:519:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m7:10:26 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:191:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:191:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  189|          gl_PointSize = min(gl_PointSize, 256.0);
+  190|      fragmentShader: /* glsl */ `
+  191|        uniform sampler2D uMap;
+     |        ^
+  192|        uniform vec3 uColor;
+  193|        uniform float uOpacity;
+  [39m
+[2m7:10:50 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARFireIdentificationModule.tsx, /src/components/ARExplosionIdentificationModule.tsx, /src/components/ARExitRouteIdentificationModule.tsx[22m
+[2m7:10:50 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:191:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:191:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  189|          gl_PointSize = min(gl_PointSize, 256.0);
+  190|      fragmentShader: /* glsl */ `
+  191|        uniform sampler2D uMap;
+     |        ^
+  192|        uniform vec3 uColor;
+  193|        uniform float uOpacity;
+  [39m
+[2m7:10:50 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:191:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:191:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  189|          gl_PointSize = min(gl_PointSize, 256.0);
+  190|      fragmentShader: /* glsl */ `
+  191|        uniform sampler2D uMap;
+     |        ^
+  192|        uniform vec3 uColor;
+  193|        uniform float uOpacity;
+  [39m
+[2m7:10:50 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:191:6: ERROR: Expected "}" but found "uniform"[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:191:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  189|          gl_PointSize = min(gl_PointSize, 256.0);
+  190|      fragmentShader: /* glsl */ `
+  191|        uniform sampler2D uMap;
+     |        ^
+  192|        uniform vec3 uColor;
+  193|        uniform float uOpacity;
+  [39m
+      at failureErrorWithLog (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:1467:15)
+      at D:\Mine Safety apk\node_modules\esbuild\lib\main.js:736:50
+      at responseCallbacks.<computed> (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:603:9)
+      at handleIncomingPacket (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:658:12)
+      at Socket.readFromStdout (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:581:7)
+      at Socket.emit (node:events:519:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m7:10:50 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:191:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:191:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  189|          gl_PointSize = min(gl_PointSize, 256.0);
+  190|      fragmentShader: /* glsl */ `
+  191|        uniform sampler2D uMap;
+     |        ^
+  192|        uniform vec3 uColor;
+  193|        uniform float uOpacity;
+  [39m
+[2m7:11:06 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARFireIdentificationModule.tsx, /src/components/ARExplosionIdentificationModule.tsx, /src/components/ARExitRouteIdentificationModule.tsx[22m
+[2m7:11:06 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:190:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:190:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  188|          gl_PointSize = min(gl_PointSize, 256.0);
+  189|      fragmentShader: /* glsl */ `
+  190|        uniform sampler2D uMap;
+     |        ^
+  191|        uniform vec3 uColor;
+  192|        uniform float uOpacity;
+  [39m
+[2m7:11:06 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:190:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:190:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  188|          gl_PointSize = min(gl_PointSize, 256.0);
+  189|      fragmentShader: /* glsl */ `
+  190|        uniform sampler2D uMap;
+     |        ^
+  191|        uniform vec3 uColor;
+  192|        uniform float uOpacity;
+  [39m
+[2m7:11:06 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:190:6: ERROR: Expected "}" but found "uniform"[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:190:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  188|          gl_PointSize = min(gl_PointSize, 256.0);
+  189|      fragmentShader: /* glsl */ `
+  190|        uniform sampler2D uMap;
+     |        ^
+  191|        uniform vec3 uColor;
+  192|        uniform float uOpacity;
+  [39m
+      at failureErrorWithLog (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:1467:15)
+      at D:\Mine Safety apk\node_modules\esbuild\lib\main.js:736:50
+      at responseCallbacks.<computed> (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:603:9)
+      at handleIncomingPacket (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:658:12)
+      at Socket.readFromStdout (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:581:7)
+      at Socket.emit (node:events:519:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m7:11:06 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:190:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:190:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  188|          gl_PointSize = min(gl_PointSize, 256.0);
+  189|      fragmentShader: /* glsl */ `
+  190|        uniform sampler2D uMap;
+     |        ^
+  191|        uniform vec3 uColor;
+  192|        uniform float uOpacity;
+  [39m
+[2m7:11:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARFireIdentificationModule.tsx, /src/components/ARExplosionIdentificationModule.tsx, /src/components/ARExitRouteIdentificationModule.tsx[22m
+[2m7:11:16 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:189:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:189:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  187|          gl_PointSize = min(gl_PointSize, 256.0);
+  188|      fragmentShader: /* glsl */ `
+  189|        uniform sampler2D uMap;
+     |        ^
+  190|        uniform vec3 uColor;
+  191|        uniform float uOpacity;
+  [39m
+[2m7:11:16 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:189:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:189:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  187|          gl_PointSize = min(gl_PointSize, 256.0);
+  188|      fragmentShader: /* glsl */ `
+  189|        uniform sampler2D uMap;
+     |        ^
+  190|        uniform vec3 uColor;
+  191|        uniform float uOpacity;
+  [39m
+[2m7:11:16 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:189:6: ERROR: Expected "}" but found "uniform"[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:189:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  187|          gl_PointSize = min(gl_PointSize, 256.0);
+  188|      fragmentShader: /* glsl */ `
+  189|        uniform sampler2D uMap;
+     |        ^
+  190|        uniform vec3 uColor;
+  191|        uniform float uOpacity;
+  [39m
+      at failureErrorWithLog (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:1467:15)
+      at D:\Mine Safety apk\node_modules\esbuild\lib\main.js:736:50
+      at responseCallbacks.<computed> (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:603:9)
+      at handleIncomingPacket (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:658:12)
+      at Socket.readFromStdout (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:581:7)
+      at Socket.emit (node:events:519:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m7:11:16 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:189:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:189:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  187|          gl_PointSize = min(gl_PointSize, 256.0);
+  188|      fragmentShader: /* glsl */ `
+  189|        uniform sampler2D uMap;
+     |        ^
+  190|        uniform vec3 uColor;
+  191|        uniform float uOpacity;
+  [39m
+[2m7:11:46 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARFireIdentificationModule.tsx, /src/components/ARExplosionIdentificationModule.tsx, /src/components/ARExitRouteIdentificationModule.tsx[22m
+[2m7:11:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:189:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:189:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  187|          gl_PointSize = min(gl_PointSize, 256.0);
+  188|      fragmentShader: /* glsl */ `
+  189|        uniform sampler2D uMap;
+     |        ^
+  190|        uniform vec3 uColor;
+  191|        uniform float uOpacity;
+  [39m
+[2m7:11:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:189:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:189:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  187|          gl_PointSize = min(gl_PointSize, 256.0);
+  188|      fragmentShader: /* glsl */ `
+  189|        uniform sampler2D uMap;
+     |        ^
+  190|        uniform vec3 uColor;
+  191|        uniform float uOpacity;
+  [39m
+[2m7:11:46 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:189:6: ERROR: Expected "}" but found "uniform"[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:189:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  187|          gl_PointSize = min(gl_PointSize, 256.0);
+  188|      fragmentShader: /* glsl */ `
+  189|        uniform sampler2D uMap;
+     |        ^
+  190|        uniform vec3 uColor;
+  191|        uniform float uOpacity;
+  [39m
+      at failureErrorWithLog (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:1467:15)
+      at D:\Mine Safety apk\node_modules\esbuild\lib\main.js:736:50
+      at responseCallbacks.<computed> (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:603:9)
+      at handleIncomingPacket (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:658:12)
+      at Socket.readFromStdout (D:\Mine Safety apk\node_modules\esbuild\lib\main.js:581:7)
+      at Socket.emit (node:events:519:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m7:11:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:189:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:189:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  187|          gl_PointSize = min(gl_PointSize, 256.0);
+  188|      fragmentShader: /* glsl */ `
+  189|        uniform sampler2D uMap;
+     |        ^
+  190|        uniform vec3 uColor;
+  191|        uniform float uOpacity;
+  [39m
+[2m7:12:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/ARFireIdentificationModule.tsx, /src/index.css[22m
+[2m7:12:15 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:189:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:189:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  187|          gl_PointSize = min(gl_PointSize, 256.0);
+  188|      fragmentShader: /* glsl */ `
+  189|        uniform sampler2D uMap;
+     |        ^
+  190|        uniform vec3 uColor;
+  191|        uniform float uOpacity;
+  [39m
+[2m7:12:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/ARExplosionIdentificationModule.tsx, /src/index.css[22m
+[2m7:12:54 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:189:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:189:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  187|          gl_PointSize = min(gl_PointSize, 256.0);
+  188|      fragmentShader: /* glsl */ `
+  189|        uniform sampler2D uMap;
+     |        ^
+  190|        uniform vec3 uColor;
+  191|        uniform float uOpacity;
+  [39m
+[2m7:13:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/ARExitRouteIdentificationModule.tsx, /src/index.css[22m
+[2m7:13:27 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/SafePit/src/components/fxShared.ts:189:6: ERROR: Expected "}" but found "uniform"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/SafePit/src/components/fxShared.ts[39m:189:6
+[33m  
+  [33mExpected "}" but found "uniform"[33m
+  187|          gl_PointSize = min(gl_PointSize, 256.0);
+  188|      fragmentShader: /* glsl */ `
+  189|        uniform sampler2D uMap;
+     |        ^
+  190|        uniform vec3 uColor;
+  191|        uniform float uOpacity;
+  [39m
+[2m7:14:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARFireIdentificationModule.tsx, /src/components/ARExplosionIdentificationModule.tsx, /src/components/ARExitRouteIdentificationModule.tsx[22m
+[2m7:30:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARExplosionIdentificationModule.tsx[22m
+[2m7:47:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARExitRouteIdentificationModule.tsx[22m
+[2m7:50:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARExitRouteIdentificationModule.tsx[22m
+[2m8:17:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARExitRouteIdentificationModule.tsx[22m
+[2m8:18:48 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARExitRouteIdentificationModule.tsx[22m
+[2m8:18:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARExitRouteIdentificationModule.tsx[22m
+[2m8:19:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARExitRouteIdentificationModule.tsx[22m
+[2m8:31:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/FireExplosionPage.tsx, /src/index.css[22m
+[2m8:32:17 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m
+[2m8:32:55 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARFireExtinguisherModule.tsx[22m
+[2m8:33:11 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/AREvacuationSequencingModule.tsx[22m
+[2m8:37:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ARFireExtinguisherModule.tsx[22m
